@@ -14,6 +14,6 @@ docker run --rm -it -p 8000:80 -p 8001:443 -e ASPNETCORE_URLS="https://+;http://
 
 > copy Bearer token string from JSON
 
-> POST to https://localhost:8001//api/thingselse with Bearer token returned from previous service and x-www-form-url-encoded content e.g. name: example1, othername: example2
+> POST to https://localhost:8001/api/thingselse with Bearer token returned from previous service and x-www-form-url-encoded content e.g. name: example1, othername: example2
 
 (Ctrl+C to stop)
